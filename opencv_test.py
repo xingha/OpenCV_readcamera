@@ -5,7 +5,7 @@
 import cv2
 
 
-RTSP_SOURCE = 'rtsp:'
+RTSP_SOURCE = 'rtsp://user:password@ip:port/nginx/filename'
 
 
 def grab_pic(camera, times):
